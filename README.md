@@ -4,7 +4,9 @@ A simple todo app built with LiteStar framework.
 
 ## Local Setup
 
-> This project uses Python 3.12.x
+> This project uses Python `3.12.x`
+
+> Refer to `.env.example` file to create a `.env` file
 
 ### With Virutal Environment
 
