@@ -43,3 +43,5 @@ litestar run
 ```
 
 Now visit `localhost:8000`
+
+Note: You can see OpenAPI docs at `localhost:8000/schema` and Swagger UI at `localhost:8000/schema/swagger`
