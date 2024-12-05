@@ -83,7 +83,7 @@ def exception_handler(_: Request, exc: ValidationException | Exception) -> Respo
 
     if isinstance(exc, ValidationException):
         if isinstance(exc.extra, list):
-            detail = f"Validation error: {exc.extra[0]["message"]}"
+            detail = f"Validation error: {exc.extra[0]['message']}"
         else:
             detail = f"Validation error: {exc.extra}"
     else:

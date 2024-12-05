@@ -24,6 +24,12 @@ Activate virutal environment
 .\venv\Scripts\activate
 ```
 
+Change directory to the project folder
+
+```bash
+cd litestar-todo
+```
+
 Install dependencies
 
 ```bash
