@@ -61,7 +61,7 @@ CORS_CONFIG = CORSConfig(allow_origins=["*"], allow_methods=["*"], allow_headers
 
 # cache
 CACHE_STORE = MemoryStore()
-CACHE_TIMEOUT = 3600
+CACHE_TIMEOUT = 3600  # seconds
 
 
 # msgspec

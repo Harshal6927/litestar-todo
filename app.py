@@ -16,7 +16,7 @@ from models import Base
 
 
 @get("/")
-async def index(request: Request) -> Response:
+async def index() -> Response:
     return Response(
         status_code=status_codes.HTTP_200_OK,
         media_type=MediaType.JSON,
