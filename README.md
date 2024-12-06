@@ -10,7 +10,7 @@ A simple todo app built with LiteStar framework.
 
 ### With Virutal Environment
 
-#### Clone this repo and open the folder in your terminal, then run the below to commands to create a virtual environment.
+#### Clone this repo and run the following commands to create a virtual environment.
 
 Note: This commands are for Windows, for other OS, please refer to the [official documentation](https://docs.python.org/3/library/venv.html) for creating a virtual environment.
 
